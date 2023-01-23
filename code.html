@@ -104,9 +104,13 @@
     </pre>
         </div>
         <div class="col-12 col-lg-4">
-          <p>The code is structured in one function</p>
-          <h5><code class="code-writeup">DisplayMessage()</code></h5>
-          <p>This function displays the message in a sweet alert</p>
+          <p></p>
+          <h5><code class="code-writeup">GetValues()</code></h5>
+          <p>This function is our entry points and captures the user input, then passes it into our <code> DisplayString()</code> function</p>
+          <h5><code class="code-writeup">ReverseString()</code></h5>
+          <p>To reverse the string, we decrement our loop though the input starting at the end. As we iterate through each character, that character is appended to the end of our result variable. Once we have fully reversed the string, we return it for the display function to display.</p>
+          <h5><code class="code-writeup">DisplayString()</code></h5>
+          <p>Once we have gotten our input and reversed the string we can display it to the screen.  We grab the results element in the page and set its text contne to our reversed string, then remove the invisible class from the alert to get the window to show.</p>
         </div>
       </div>
 
